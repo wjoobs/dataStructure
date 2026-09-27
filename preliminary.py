@@ -42,6 +42,17 @@ s2.speedUp()
 print("슈퍼카1:",s1)
 print("슈퍼카2:",s2)
 
+print("\n===== 현재 Car 상태 =====")
+print("car1:", car1)
+print("car2:", car2)
+print("car3:", car3)
+print("car4:", car4)
+print("car5:", car5)
+
+print("\n===== 현재 SuperCar 상태 =====")
+print("s1:", s1)
+print("s2:", s2)
+
 print("\n===== Car 속성 확인 =====")
 print("car1 → color:", car1.color, "speed:", car1.speed)
 print("car2 → color:", car2.color, "speed:", car2.speed)
