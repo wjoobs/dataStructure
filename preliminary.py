@@ -13,7 +13,7 @@ class SuperCar(Car):
         super().__init__(color, speed)
         self.bTurbo = bTurbo
     def setTurbo(self, bTurbo = True) :
-        self.bTurbo = b.Turbo
+        self.bTurbo = bTurbo
     def speedUp(self):
         if self.bTurbo :
             self.speed += 50
